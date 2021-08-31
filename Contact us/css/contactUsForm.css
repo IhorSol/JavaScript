@@ -1,0 +1,76 @@
+body {
+  width: 600px;
+  margin: 50px auto;
+  border: 1px solid silver;
+  padding: 30px;
+}
+
+#form {
+  width: 200px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#form-title {
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+#message {
+  height: 150px;
+  resize: none;
+}
+
+#error {
+  margin-bottom: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  border-color: green;
+}
+
+.comment-begin {
+  display: inline;
+  font-weight: bold;
+}
+
+.comment {
+  background-color: silver;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#comments p {
+  margin: 0px;
+}
+
+button {
+  border-radius: 5px;
+  border: 0;
+  background: #e06149;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 600ms ease;
+}
+
+button:hover {background: #333}
+
+span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

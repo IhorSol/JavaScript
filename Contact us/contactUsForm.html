@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/contactUsForm.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+<form id="form">
+  <span id="form-title">Форма обратной связи</span>
+  <span>Имя</span>
+  <input id="name" type="text" class="input-field" placeholder="Введите имя">
+  <span>Email</span>
+  <input id="email" type="email" class="input-field" placeholder="Ваш email">
+  <span>Телефон</span>
+  <input id="telephone" type="tel" class="input-field" placeholder="Ваш телефон">
+  <span>Сообщение</span>
+  <textarea id="message" class="input-field" placeholder="Введите сообщние"></textarea>
+  <div id="error"></div>
+  <button id="form-button" type="button" onclick="formCheck()">Отправить</button>
+</form>
+
+<hr>
+<section id = "comments">
+  <h3>Комментарии</h3>
+  <div id="all-comments">
+
+  </div>
+</section>
+
+
+  <script src="js/contactUsForm.js"></script>
+</body>
+</html>
